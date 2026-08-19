@@ -1,14 +1,3 @@
 {
-  "version": 2,
-  "public": true,
-  "routes": [
-    {
-      "src": "/frames/(.*)",
-      "dest": "/frames/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "cleanUrls": true
 }
